@@ -2,7 +2,7 @@
 int isArmstrong(int x){
     int length = getLength(x);
     int sum=0;
-    int copyX=x;
+    int copyX=x;//Copying the original number and operations on it to compare the result
     while (copyX != 0) {
         int digit = copyX % 10; 
         int mul=1;
